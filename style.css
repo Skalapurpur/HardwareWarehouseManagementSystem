@@ -1,0 +1,201 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    margin-top: 46px !important;
+    background-image: url("https://businessmirror.com.ph/wp-content/uploads/2021/09/top01-091521.jpg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.hero-section-main {
+    background-color: rgba(22, 22, 22, 0.7);
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section-into-text {
+    /* for the boarder on the big picture*/
+    padding: 40px;
+    width: 90%;
+    margin-bottom: 30px;
+    border: 2px solid #FFB52E !important;
+    border-radius: 30px !important;
+}
+
+.hero-section-into-text h1 {
+    font-size: 60px !important;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.hero-section-into-text p {
+    width: 40%;
+    letter-spacing: 1px;
+}
+
+.section-text-header {
+    /* for the vertical line on every header*/
+    margin: 80px 0px!important;
+    border-left: 6px solid #FFB52E;
+    padding-left: 50px !important;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.product-left-side {
+    width: 600px;
+    height: 700px;
+    margin-right: 20px;
+}
+
+.product-left-side img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+
+.product-right-side {
+    width: 400px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 10px;
+}
+
+.icons {
+    font-size: 16px;
+    padding: 3px;
+}
+
+.product-right-side-1 {
+    width: 400px;
+    height: 340px;
+}
+
+.product-right-side-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.product-right-side-2 {
+    height: 337px;
+    width: 400px;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.product-right-side-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.contact {
+    padding: 40px 0px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.products {
+    width: 90%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.product-list {
+    width: 80%;
+    width: 250;
+    height: 250;
+}
+
+.new-arrived-products {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    grid-row-gap: 60px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.new-product {
+    height: 445px;
+    color: gray;
+}
+
+.price {
+    color: black;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.new-arrived-image {
+    width: 300px !important;
+    height: 300px !important;
+    overflow: hidden;
+}
+
+.new-arrived-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.feedback {
+    width: 70%;
+    margin: auto;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.card {
+    width: 380px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: #FFB52E;
+    height: 150px;
+    box-shadow: 2px 7px 20px -5px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 2px 7px 20px -5px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 2px 7px 20px -5px rgba(0, 0, 0, 0.57);
+}
+
+.customer-profile {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.customer-feedback-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.customer-profile img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.w3-top {
+    background-color: #FFB52E;
+}

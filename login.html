@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Arya' rel='stylesheet'>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div class="login">
+        <h2>Admin Login</h2><br>
+        <form id="login" method="get" action="login.php">
+            <label><b>UserName     
+        </b>    
+        </label>
+            <input type="text" name="Uname" id="Uname" placeholder="Username" required>
+            <br><br>
+            <label><b>Password     
+        </b>    
+        </label>
+            <input type="Password" name="pass" id="pass" placeholder="Password" required>
+            <br></br>
+            <input type="checkbox" id="check" name="check" onclick="myFunction()">Show Password
+            <br></br>
+            <button type="submit" name="log" id="log" onclick="login()"> Log in Here</button>
+            <br><br>
+            <input type="checkbox" id="check">
+            <span>Remember me</span>
+        </form>
+        <div class="message hide">
+            <p id="messageDetails">
+                </a>
+            </p>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+
+.add {
+    border-radius: 8px;
+    background-color: #8ecae6;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .add:hover {background-color: #3e8e41}
+  
+  .add:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+.inventory {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .inventory td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .inventory tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .inventory tr:hover {background-color: #8ecae6;}
+  
+  .inventory th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #023047;
+    color: #023047;
+  }
+  h1{
+    text-align: center;
+  }

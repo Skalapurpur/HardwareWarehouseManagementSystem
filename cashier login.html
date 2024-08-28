@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link href='https://fonts.googleapis.com/css?family=Arya' rel='stylesheet'>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="cashier login.js"></script>
+</head>
+
+<body>
+    <div class="login">
+        <h2>Cashier Login</h2><br>
+        <form id="login" method="get" action="login.php">
+            <label><b>UserName     
+        </b>    
+        </label>
+            <input type="text" name="Uname2" id="Uname2" placeholder="Username">
+            <br><br>
+            <label><b>Password     
+        </b>    
+        </label>
+            <input type="Password" name="pass2" id="pass2" placeholder="Password">
+            <br></br>
+            <input type="checkbox" id="check" name="check" onclick="myFunction()">Show Password
+            <br></br>
+            <button type="submit" name="log" id="log" onclick="login()"> Log in Here</button>
+            <br><br>
+            <input type="checkbox" id="check">
+            <span>Remember me</span>
+        </form>
+        <div class="message hide">
+            <p id="messageDetails">
+                </a>
+            </p>
+
+        </div>
+    </div>
+</body>
+
+</html>
