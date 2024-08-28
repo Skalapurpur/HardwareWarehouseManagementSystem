@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arya';
+    color: aliceblue;
+}
+
+.login {
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 470px;
+    padding: 70px;
+    background: #023047;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    text-align: center;
+    color: #8ecae6;
+    font-family: 'Arya';
+}
+
+label {
+    color: #8ecae6;
+    font-size: 17px;
+    font-family: 'Arya';
+}
+
+#Uname {
+    width: 290px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    padding-left: 10px;
+    font-family: 'Arya';
+}
+
+#pass {
+    width: 290px;
+    height: 30px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    font-family: 'Arya';
+}
+
+#Uname2 {
+    width: 290px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    padding-left: 10px;
+    font-family: 'Arya';
+}
+
+#pass2 {
+    width: 290px;
+    height: 30px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    font-family: 'Arya';
+}
+
+#log {
+    width: 75%;
+    height: 30px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: #8ecae6;
+    font-family: 'Arya';
+}
+#q {
+    width: 290px;
+    height: 30px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    font-family: 'Arya';
+}
+
+span {
+    color: white;
+    font-size: 17px;
+    font-family: 'Arya';
+}
+
+a {
+    float: right;
+    background-color: grey;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
