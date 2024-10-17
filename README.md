@@ -1,7 +1,7 @@
 # SD-3101 HardwareManagementSystem
 
 
-![Project Banner](https://via.placeholder.com/1200x400.png?text=Project+Banner+Placeholder)
+![Project Banner]([https://via.placeholder.com/1200x400.png?text=Project+Banner+Placeholder](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vectors%2Fstore-hardware-banner-vectors&psig=AOvVaw2ybwDGe6rYbYr65M1UBxbT&ust=1729240279324000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLj_oJmAlYkDFQAAAAAdAAAAABAK))
 
 
 ## Table of Contents
